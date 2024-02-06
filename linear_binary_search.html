@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linear_binary_search</title>
+</head>
+<body>
+    <b>LINEAR SEARCH : goes in linear :like a simple search in array</b>
+    <li>Global Binary search :</li>
+    <b>BINARY SEARCH : create a mid and assign pointers</b>
+    <li>Has to be sorted : asc or desc</li>
+    <li>
+        <pre>
+
+            ex : [-1,0,3,4,5,9,12] : target = 9
+
+            startvariable : 0
+            EndVariable : lenth-1 : last value
+
+            while loop : startvariable <= EndVariable : keep on running : as array in asc order 
+
+            calculate middle index : startIndex + endIndex / 2 : 2.5 : math.floor : 3index
+            5 value : middle 
+
+            middle === target  (5===9? no,)
+
+            middleIndex <= target ( 5 < 9) : yes : shift start to middle + 1 : 
+            startvariable === 9 value 
+
+            new middle :  startIndex + endIndex / 2 : 4+5 / 2 = 5index
+            middle is now 5index : 9 value
+
+            again, if middle and target comparion 
+
+            middle > target ( 5 < 0 : if target is -1) : yes : shift end to middle -1  : 
+            startvariable === 9 value 
+
+           
+
+        </pre>
+    </li>
+</body>
+<script src="src/linear_binary_search.js"></script>
+<script src="src/binary_search.js"></script>
+</html>
